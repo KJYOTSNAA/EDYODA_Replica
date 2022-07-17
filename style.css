@@ -1,0 +1,219 @@
+/* Header */
+
+Header {
+    background-color: #fff;
+    padding: 10px 78px 36px 78px;
+}
+
+body {
+    background-color: #F2F6FF;
+}
+
+.Logo {
+    Width: 150px;
+    font-size: 32px;
+    color: #0084ff;
+}
+
+.Logo-Stories-text {
+    margin: 0;
+    font-weight: 500;
+    Font: Raleway;
+    font-style: Italic;
+}
+
+.div2 {
+    float: left;
+    margin-right: 360px;
+}
+
+.Dropdown-text {
+    padding-top: 30px;
+    color: #000;
+}
+
+.Dropdown-icon {
+    padding-top: 0;
+    padding-left: 8px;
+
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.rigntmenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 15%;
+    min-width: 158px;
+    z-index: 1;
+    padding: 20px;
+    box-shadow: 5px 5px 20px #0084ff;
+}
+
+.dropdown p:hover {
+    background-color: #a5bbf0;
+    color: #000;
+}
+
+.rigntmenu:hover .dropdown {
+    display: block;
+}
+
+.rigntmenu:hover .dropbtn {
+    background-color: transparent;
+}
+
+
+
+/* Categories */
+
+.Categories-container {
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    padding-top: 16px
+}
+
+.Heading {
+    color: #000;
+    font-weight: 600;
+    margin: 0
+}
+
+.Filter-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px
+}
+
+.Categories {
+    background-color: #F2F6FF;
+    padding: 6px 14px;
+    Width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    Border: 1px solid #0084ff;
+    margin: 5px;
+    Cursor: pointer
+}
+
+.Categories:focus {
+    color: #fff;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px 14px;
+    Width: auto;
+    Border: 1px solid #0084ff;
+    background-color: #0084ff
+}
+
+/* cards */
+main {
+    box-align: center;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 16px
+}
+
+.Item {
+    Width: 29%;
+    float: left;
+    box-align: center;
+    margin: 20px;
+    border-radius: 5%;
+    border: 1px rgb(142, 219, 249);
+    box-shadow: 5px 5px 5px #a5bbf0;
+    box-sizing: content-box;
+    height: 420px;
+    word-wrap: break-word;
+    flex-wrap: wrap initial;
+    
+}
+
+.Image-section {
+
+    Height: 176px;
+    Width:100% ;
+}
+
+.Image {
+    Width: 100%;
+    Height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Text-section {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, .6);
+   
+    margin: 4px 0
+   
+}
+
+.Title {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.Author-container {
+    padding-top: 4px;
+    margin: 10px;
+}
+
+.Author {
+    color: #0096ff;
+    font-size: 14px;
+    font-style: Italic;
+    font-weight: 500
+}
+
+.Date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300
+}
+
+footer{
+    background-color: #172146;
+    padding: 80px 20%;
+    color: rgb(181, 197, 230);
+    
+    
+}
+
+.col{
+    
+    height: 225px;
+    width: 230px;
+    display: inline-block ;
+    vertical-align: middle;
+}
+
+footer a{
+ color: #a5bbf0;
+ text-decoration: none;
+}
+
+.col ul{
+    padding:0%;
+}
