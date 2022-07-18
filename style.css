@@ -7,6 +7,8 @@ Header {
 
 body {
     background-color: #F2F6FF;
+    margin: 0;
+    padding: 0;
 }
 
 .Logo {
