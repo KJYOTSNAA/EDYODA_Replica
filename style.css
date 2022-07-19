@@ -143,8 +143,7 @@ main {
     box-shadow: 5px 5px 5px #a5bbf0;
     box-sizing: content-box;
     height: 420px;
-    word-wrap: break-word;
-    flex-wrap: wrap initial;
+    overflow: hidden;
     
 }
 
